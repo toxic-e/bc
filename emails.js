@@ -373,9 +373,9 @@ ${brandHeader('Payment Required', '#5856d6')}
   <p style="margin:0 0 8px;font-family:${F};font-size:11px;font-weight:600;letter-spacing:1.2px;color:#8e8e93;text-transform:uppercase;">Payment Addresses</p>
   <table width="100%" cellpadding="0" cellspacing="0" role="presentation"
     style="border:1px solid #e5e5ea;border-radius:14px;overflow:hidden;">
-    ${cryptoRow('USDT', 'TQn9Y2khEsLJW1ChVWFMSMeRDow5KcbLSE', 'TRC20 — Tron Network')}
-    ${cryptoRow('USDT', '0x4Bf6B2F0811E5C797b1B5B7e1C8E2A3D9F0e7B3a', 'BEP20 — Binance Smart Chain')}
-    ${cryptoRow('USDT', '0x4Bf6B2F0811E5C797b1B5B7e1C8E2A3D9F0e7B3a', 'Polygon — MATIC Network')}
+    ${cryptoRow('USDT', 'TWL9KeN22wEJLGN17NioUrBVmL4rrZTKFL', 'Only send Tether USDT (TRC20) assets to this address. Other assets will be lost forever.')}
+    ${cryptoRow('USDT', '0x753f624Fc07eDdC735C02Fe2Aab188Dd00335d94', 'Only send Tether USD (BEP20) assets to this address. Other assets will be lost forever')}
+    ${cryptoRow('USDT', '0x753f624Fc07eDdC735C02Fe2Aab188Dd00335d94', 'Only send (PoS) Tether USD (POLYGON) assets to this address. Other assets will be lost forever.')}
     <tr><td style="padding:14px 18px;">
       <p style="margin:0 0 3px;font-family:${F};font-size:13px;font-weight:600;color:#1c1c1e;">Litecoin (LTC)</p>
       <p style="margin:0 0 6px;font-family:${F};font-size:11px;color:#8e8e93;">Litecoin Network</p>
