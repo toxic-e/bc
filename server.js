@@ -177,18 +177,19 @@ const upload = multer({
 
 // ─── NODEMAILER TRANSPORTER ───────────────────────────────────────────────────
 const mailer = nodemailer.createTransport({
-  host:   process.env.SMTP_HOST   || 'smtp.gmail.com',
-  port:   parseInt(process.env.SMTP_PORT || '587'),
-  secure: process.env.SMTP_SECURE === 'true',
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true,
   auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
+    user: 'toxic.bots.hub@gmail.com',
+    pass: 'hudu aiuw zslo vnmo',
   },
-  pool:           true,
+  pool: true,
   maxConnections: 5,
-  rateDelta:      1000,
-  rateLimit:      10,
+  rateDelta: 1000,
+  rateLimit: 10,
 });
+
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 function genOrderId() {
